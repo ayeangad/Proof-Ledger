@@ -1,0 +1,8 @@
+{
+  "confidence_threshold": 0.75,
+  "disputable_review_threshold": 500,
+  "amount_tolerance": 0.05,
+  "review_minutes_per_line": 4,
+  "brand_remittances_per_month": 40,
+  "seed": 42
+}
