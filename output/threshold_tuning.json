@@ -1,0 +1,49 @@
+{
+  "kept": 0.75,
+  "sweep_pick": 0.6,
+  "sweep": [
+    {
+      "threshold": 0.6,
+      "item_accuracy": 0.9771,
+      "dollar_weighted_accuracy": 0.9747,
+      "review_rate": 0.0382,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.65,
+      "item_accuracy": 0.9771,
+      "dollar_weighted_accuracy": 0.9747,
+      "review_rate": 0.0382,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.7,
+      "item_accuracy": 0.9695,
+      "dollar_weighted_accuracy": 0.9711,
+      "review_rate": 0.0458,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.75,
+      "item_accuracy": 0.9695,
+      "dollar_weighted_accuracy": 0.9711,
+      "review_rate": 0.0458,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "item_accuracy": 0.9542,
+      "dollar_weighted_accuracy": 0.9628,
+      "review_rate": 0.0611,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.85,
+      "item_accuracy": 0.9466,
+      "dollar_weighted_accuracy": 0.9597,
+      "review_rate": 0.0687,
+      "disputable_fn_dollar_rate": 0.0
+    }
+  ],
+  "note": "Sweep preferred 0.6, kept config 0.75. No change made: the sweep spread is 0.4pp on synthetic data and every candidate has 0% disputable FN-$; keeping the stricter 0.75 errs toward human review, which is the safe direction on real money. Re-run the sweep on production-labeled data before trusting 0.6."
+}

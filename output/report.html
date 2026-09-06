@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Northfork Snack Co. — Deduction Reconciliation V1</title>
+<style>body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:960px;margin:0 auto;padding:24px;color:#1a1a1a;line-height:1.5}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:16px 0}
+.kpi{border:1px solid #ddd;border-radius:10px;padding:12px;background:#fafafa}.kpi b{font-size:1.25em}
+table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left;font-size:.9em}
+th{background:#f3f3f3}.card{border:1px solid #ddd;border-radius:10px;padding:14px;margin:14px 0;background:#fff}
+.badge{font-size:.75em;padding:2px 8px;border-radius:20px}.ok{background:#e6f4ea}.miss{background:#fdecea}
+code{background:#f1f1f1;padding:1px 5px;border-radius:4px}.note{background:#fff8e1;border:1px solid #ecd27a;border-radius:10px;padding:12px;margin:14px 0}
+.small{font-size:.85em;color:#555}</style></head><body>
+<h1>Distributor Deduction Reconciliation &amp; Evidence Engine — V1 Report</h1>
+<p class="small">Fictional brand <b>Northfork Snack Co.</b> · synthetic remittances modeled on publicly documented
+UNFI/KeHE-style deduction categories (not real distributor data) · built independently to investigate a problem
+named in Minerva/Mars public materials · not a claim about their internals. Reproduces via <code>python run.py</code>.</p>
+<div class="kpis">
+<div class="kpi">Processed<b>$114,841.00</b><br><span class="small">131 lines, 18 remittances, 3 months</span></div>
+<div class="kpi">Auto-reconciled<b>$110,775.00</b><br><span class="small">95% of lines, no human touch</span></div>
+<div class="kpi">Flagged disputable<b>$4,449.00</b><br><span class="small">recoverable-money bucket (ground truth)</span></div>
+<div class="kpi">Sent to review<b>$4,066.00</b><br><span class="small">5% of lines · full queue in review_queue.html</span></div>
+</div>
+<h2>Evaluation (vs hand-labeled ground_truth.json)</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Item-level accuracy (strict: code + bucket)</td><td>97.0%</td></tr>
+<tr><td><b>$-weighted accuracy</b> (Σ correct $ / Σ total $)</td><td><b>97.1%</b></td></tr>
+<tr><td>Reason-code accuracy (code right, incl. safely routed to review)</td><td>100.0% ($-weighted 100.0%)</td></tr>
+<tr><td>False-negative rate on disputable (count)</td><td>0.0%</td></tr>
+<tr><td>False-negative rate on disputable ($ — the recoverable-money metric)</td><td>0.0%</td></tr>
+<tr><td>Auto-posted vs review</td><td>125 auto / 6 review</td></tr>
+<tr><td>Reviewer time saved</td><td>~18.5 hrs/month. <span class="small">4.0 min manual triage/line (deduction-backlog processing benchmark assumption); 40 remittances/month; avg 7.3 lines/remittance in V1 sample</span></td></tr></table>
+<h3>Confusion matrix (rows = truth, cols = predicted)</h3>
+<table><tr><th></th><th>TRADE_</th><th>SCAN_A</th><th>SLOTTI</th><th>SHORTA</th><th>COMPLI</th><th>SPOILA</th><th>COOP_A</th><th>ADMIN_</th><th>UNKNOW</th></tr><tr><th>TRADE_</th><td>38</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><th>SCAN_A</th><td>—</td><td>40</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><th>SLOTTI</th><td>—</td><td>—</td><td>6</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><th>SHORTA</th><td>—</td><td>—</td><td>—</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><th>COMPLI</th><td>—</td><td>—</td><td>—</td><td>—</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><th>SPOILA</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><th>COOP_A</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>37</td><td>—</td><td>—</td></tr><tr><th>ADMIN_</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>1</td><td>—</td></tr><tr><th>UNKNOW</th><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>2</td></tr></table>
+<h3>Threshold tuning (compressed Day-4 — not dropped)</h3>
+<p class="small">Spec asked to tune the confidence threshold on what the eval finds and write down what changed and why.
+Compressed here into a sweep instead of a full day: Sweep preferred 0.6, kept config 0.75. No change made: the sweep spread is 0.4pp on synthetic data and every candidate has 0% disputable FN-$; keeping the stricter 0.75 errs toward human review, which is the safe direction on real money. Re-run the sweep on production-labeled data before trusting 0.6.</p>
+<table><tr><th>Threshold</th><th>Item acc</th><th>$-weighted</th><th>Review %</th><th>Disputable FN-$</th></tr><tr><td>0.6</td><td>97.7%</td><td>97.5%</td><td>3.8%</td><td>0.0%</td></tr><tr><td>0.65</td><td>97.7%</td><td>97.5%</td><td>3.8%</td><td>0.0%</td></tr><tr><td>0.7</td><td>97.0%</td><td>97.1%</td><td>4.6%</td><td>0.0%</td></tr><tr><td>0.75</td><td>97.0%</td><td>97.1%</td><td>4.6%</td><td>0.0%</td></tr><tr><td>0.8</td><td>95.4%</td><td>96.3%</td><td>6.1%</td><td>0.0%</td></tr><tr><td>0.85</td><td>94.7%</td><td>96.0%</td><td>6.9%</td><td>0.0%</td></tr></table>
+<h2>Worked examples (the ambiguous ones, not the easy ones)</h2>
+<div class="card"><h3>SB-ALLOW Q3 ADJ <span class="badge miss">MISS</span></h3>
+<p><b>Line</b> INV-CRY-07-L0125 · invoice INV-CRY-07 · amount <b>$412.00</b>
+· raw code <code>SB-ALLOW</code> · stage <code>llm_mock</code></p>
+<p><b>Decision:</b> <code>SCAN_ALLOWANCE</code> → <code>needs_review</code>
+(conf 0.66) &nbsp; <b>Ground truth:</b> <code>SCAN_ALLOWANCE</code> → <code>valid_trade_spend</code></p>
+<p><b>Evidence cited:</b></p><ul><li>&#x27;SB-ALLOW&#x27; distributor shorthand mapped to SCAN_ALLOWANCE</li><li>amount $412.00 vs ~3% of invoice ($600.00); off by 31.3%</li><li>shorthand is ambiguous — routed to review: confidence &lt; 0.75 by policy</li><li>policy: confidence 0.66 &lt; 0.75 — forced to needs_review</li></ul>
+<p><b>Journal:</b> JE-00050 — Dr <i>DRAFT — pending review</i> / Cr <i>AR — Distributor</i>
+— $412.00 — <code>pending_review</code></p></div><div class="card"><h3>CHG-BK REF 88213 <span class="badge miss">MISS</span></h3>
+<p><b>Line</b> INV-CRY-12-L0126 · invoice INV-CRY-12 · amount <b>$689.00</b>
+· raw code <code>CHGBK</code> · stage <code>llm_mock</code></p>
+<p><b>Decision:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>needs_review</code>
+(conf 0.62) &nbsp; <b>Ground truth:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>&#x27;CHG-BK REF&#x27; shorthand mapped to COMPLIANCE_CHARGEBACK</li><li>no carrier/ASN backup cited on the remittance line</li><li>$689.00 exceeds $150/event contract allowance — routed to review</li><li>policy: confidence 0.62 &lt; 0.75 — forced to needs_review</li></ul>
+<p><b>Journal:</b> JE-00008 — Dr <i>DRAFT — pending review</i> / Cr <i>AR — Distributor</i>
+— $689.00 — <code>pending_review</code></p></div><div class="card"><h3>SHORTAGE CLAIM TRLR 4471 REBILL <span class="badge ok">MATCH</span></h3>
+<p><b>Line</b> INV-DUP-01-L0121-DUP · invoice INV-DUP-01 · amount <b>$480.00</b>
+· raw code <code>SHORT</code> · stage <code>rules</code></p>
+<p><b>Decision:</b> <code>SHORTAGE_CLAIM</code> → <code>disputable</code>
+(conf 0.78) &nbsp; <b>Ground truth:</b> <code>SHORTAGE_CLAIM</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>matched AgreementTerm SHORTAGE_CLAIM effective 2026-06-01</li><li>no amount anchor in term; keyword + raw-code match only</li></ul>
+<p><b>Journal:</b> JE-00015 — Dr <i>Deductions Receivable — Disputed</i> / Cr <i>AR — Distributor</i>
+— $480.00 — <code>disputed</code></p></div><div class="card"><h3>CHG-BK LATE ASN MAY SHIP (OUT OF WINDOW) <span class="badge ok">MATCH</span></h3>
+<p><b>Line</b> INV-CB-118-L0123 · invoice INV-CB-118 · amount <b>$350.00</b>
+· raw code <code>CHGBK</code> · stage <code>llm_mock</code></p>
+<p><b>Decision:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>disputable</code>
+(conf 0.8) &nbsp; <b>Ground truth:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>COMPLIANCE_CHARGEBACK keyword match</li><li>May shipment billed in August — outside contract window</li><li>contract allows $150/event inside window only</li></ul>
+<p><b>Journal:</b> JE-00032 — Dr <i>Deductions Receivable — Disputed</i> / Cr <i>AR — Distributor</i>
+— $350.00 — <code>disputed</code></p></div><div class="card"><h3>ADMIN FEE CHG-BK 118 <span class="badge ok">MATCH</span></h3>
+<p><b>Line</b> INV-CB-118-L0124 · invoice INV-CB-118 · amount <b>$85.00</b>
+· raw code <code>ADMFEE</code> · stage <code>rules</code></p>
+<p><b>Decision:</b> <code>ADMIN_FEE</code> → <code>disputable</code>
+(conf 0.88) &nbsp; <b>Ground truth:</b> <code>ADMIN_FEE</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>keyword/raw-code map to ADMIN_FEE</li><li>no AgreementTerm and no open PriorAccrual — default bucket per taxonomy</li></ul>
+<p><b>Journal:</b> JE-00042 — Dr <i>Deductions Receivable — Disputed</i> / Cr <i>AR — Distributor</i>
+— $85.00 — <code>disputed</code></p></div>
+<h2>Where this breaks</h2>
+<p>No code errors. All 4 strict miss(es) are lines where the code was right but the safety policy forced <code>needs_review</code> instead of auto-posting. First two shown — this is the price of the safety invariant, stated as a cost not a win.</p>
+<div class="card"><h3>CHG-BK REF 88213 <span class="badge miss">MISS</span></h3>
+<p><b>Line</b> INV-CRY-12-L0126 · invoice INV-CRY-12 · amount <b>$689.00</b>
+· raw code <code>CHGBK</code> · stage <code>llm_mock</code></p>
+<p><b>Decision:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>needs_review</code>
+(conf 0.62) &nbsp; <b>Ground truth:</b> <code>COMPLIANCE_CHARGEBACK</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>&#x27;CHG-BK REF&#x27; shorthand mapped to COMPLIANCE_CHARGEBACK</li><li>no carrier/ASN backup cited on the remittance line</li><li>$689.00 exceeds $150/event contract allowance — routed to review</li><li>policy: confidence 0.62 &lt; 0.75 — forced to needs_review</li></ul>
+<p><b>Journal:</b> JE-00008 — Dr <i>DRAFT — pending review</i> / Cr <i>AR — Distributor</i>
+— $689.00 — <code>pending_review</code></p></div><div class="card"><h3>SHORTAGE CTNS 212 VS 240 <span class="badge miss">MISS</span></h3>
+<p><b>Line</b> INV-SH-902-L0122 · invoice INV-SH-902 · amount <b>$1,275.00</b>
+· raw code <code>SHORT</code> · stage <code>rules</code></p>
+<p><b>Decision:</b> <code>SHORTAGE_CLAIM</code> → <code>needs_review</code>
+(conf 0.78) &nbsp; <b>Ground truth:</b> <code>SHORTAGE_CLAIM</code> → <code>disputable</code></p>
+<p><b>Evidence cited:</b></p><ul><li>matched AgreementTerm SHORTAGE_CLAIM effective 2026-06-01</li><li>no amount anchor in term; keyword + raw-code match only</li><li>policy: disputable $1,275.00 &gt; $500 — forced to needs_review</li></ul>
+<p><b>Journal:</b> JE-00023 — Dr <i>DRAFT — pending review</i> / Cr <i>AR — Distributor</i>
+— $1,275.00 — <code>pending_review</code></p></div>
+<h2>Accounting judgment: disputable books to a receivable, not an expense</h2>
+<p>A disputable deduction is a <i>claim against the distributor</i>, not a cost already incurred. Booking it to
+“Deductions Receivable — Disputed” (Dr receivable / Cr AR) preserves the recovery position and keeps the P&amp;L clean
+until the dispute resolves; only confirmed-valid trade spend hits contra-revenue, and only exhausted claims become
+expense. Expensing on deduction would understate assets and hide recoverable dollars — the exact leak this system exists to plug.</p>
+<div class="note"><b>Two gaps, named explicitly.</b><br>
+1) <i>Threshold tuning was compressed, not skipped.</i> The sweep above is the Day-4 activity in miniature; the kept
+threshold (0.75) and rationale are recorded in <code>output/threshold_tuning.json</code>.<br>
+2) <i>Mock-LLM circularity.</i> The <code>llm_mock.py</code> heuristics were written by the same author who injected the
+hard cases, so mock accuracy measures “did my heuristic cover my cases” — not model generalization. The transferable
+claim is narrower: every uncertain line carries evidence + a confidence, and the routing invariant (low-conf or
+disputable &gt; $500 → human) holds regardless of which classifier fills the slot. The real test is swapping in a
+production model behind the same interface and re-running this harness.</div>
+<p class="small">Safety property: the model never gets the final say on money above the threshold — confidence &lt;
+0.75 or disputable &gt; $500 is forced to <code>needs_review</code> (config.json).
+Reconciliation invariant enforced at parse time: invoice_total − cash_received must equal Σ line amounts.
+LLM prompt/response pairs logged to <code>output/llm_log.jsonl</code>.</p>
+</body></html>

@@ -1,0 +1,101 @@
+{
+  "n_lines": 131,
+  "total_dollars": 114841.0,
+  "item_accuracy": 0.9695,
+  "dollar_weighted_accuracy": 0.9711,
+  "code_accuracy": 1.0,
+  "code_dollar_accuracy": 1.0,
+  "routed_but_code_correct": 4,
+  "confusion": {
+    "TRADE_PROMO": {
+      "TRADE_PROMO": 38
+    },
+    "SCAN_ALLOWANCE": {
+      "SCAN_ALLOWANCE": 40
+    },
+    "SLOTTING": {
+      "SLOTTING": 6
+    },
+    "SHORTAGE_CLAIM": {
+      "SHORTAGE_CLAIM": 3
+    },
+    "COMPLIANCE_CHARGEBACK": {
+      "COMPLIANCE_CHARGEBACK": 3
+    },
+    "SPOILAGE_DAMAGE": {
+      "SPOILAGE_DAMAGE": 1
+    },
+    "COOP_ADVERTISING": {
+      "COOP_ADVERTISING": 37
+    },
+    "ADMIN_FEE": {
+      "ADMIN_FEE": 1
+    },
+    "UNKNOWN": {
+      "UNKNOWN": 2
+    }
+  },
+  "disputable_lines": 8,
+  "disputable_fn_count_rate": 0.0,
+  "disputable_fn_dollar_rate": 0.0,
+  "disputable_dollars": 4449.0,
+  "disputable_dollars_missed": 0.0,
+  "auto_posted": 125,
+  "sent_to_review": 6,
+  "auto_post_rate": 0.9542,
+  "review_rate": 0.0458,
+  "auto_reconciled_dollars": 110775.0,
+  "flagged_disputable_dollars": 4449.0,
+  "sent_to_review_dollars": 4066.0,
+  "threshold_sweep": [
+    {
+      "threshold": 0.6,
+      "item_accuracy": 0.9771,
+      "dollar_weighted_accuracy": 0.9747,
+      "review_rate": 0.0382,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.65,
+      "item_accuracy": 0.9771,
+      "dollar_weighted_accuracy": 0.9747,
+      "review_rate": 0.0382,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.7,
+      "item_accuracy": 0.9695,
+      "dollar_weighted_accuracy": 0.9711,
+      "review_rate": 0.0458,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.75,
+      "item_accuracy": 0.9695,
+      "dollar_weighted_accuracy": 0.9711,
+      "review_rate": 0.0458,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "item_accuracy": 0.9542,
+      "dollar_weighted_accuracy": 0.9628,
+      "review_rate": 0.0611,
+      "disputable_fn_dollar_rate": 0.0
+    },
+    {
+      "threshold": 0.85,
+      "item_accuracy": 0.9466,
+      "dollar_weighted_accuracy": 0.9597,
+      "review_rate": 0.0687,
+      "disputable_fn_dollar_rate": 0.0
+    }
+  ],
+  "threshold_chosen_by_sweep": 0.6,
+  "threshold_kept": 0.75,
+  "threshold_note": "Sweep preferred 0.6, kept config 0.75. No change made: the sweep spread is 0.4pp on synthetic data and every candidate has 0% disputable FN-$; keeping the stricter 0.75 errs toward human review, which is the safe direction on real money. Re-run the sweep on production-labeled data before trusting 0.6.",
+  "reviewer_time": {
+    "assumption": "4.0 min manual triage/line (deduction-backlog processing benchmark assumption); 40 remittances/month; avg 7.3 lines/remittance in V1 sample",
+    "hours_saved_per_month": 18.5
+  }
+}

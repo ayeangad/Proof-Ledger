@@ -1,0 +1,1312 @@
+[
+  {
+    "entry_id": "JE-00001",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-001-L0001",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-001-L0001",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00002",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-001-L0002",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #42098 | INV-202606-001-L0002",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00003",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202606-001-L0003",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 242 | INV-202606-001-L0003",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00004",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-001-L0004",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-001-L0004",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00005",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202606-001-L0005",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 792 | INV-202606-001-L0005",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00006",
+    "period": "2026-06",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202606-001-L0006",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202606-001-L0006",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00007",
+    "period": "2026-06",
+    "debit_account": "Deductions Receivable \u2014 Disputed",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-DUP-01-L0121",
+    "memo": "SHORTAGE_CLAIM | SHORTAGE CLAIM TRLR 4471 | INV-DUP-01-L0121",
+    "status": "disputed"
+  },
+  {
+    "entry_id": "JE-00008",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 689.0,
+    "source_line_id": "INV-CRY-12-L0126",
+    "memo": "COMPLIANCE_CHARGEBACK | CHG-BK REF 88213 | INV-CRY-12-L0126",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00009",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202606-002-L0007",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-002-L0007",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00010",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 840.0,
+    "source_line_id": "INV-202606-002-L0008",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #14165 | INV-202606-002-L0008",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00011",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2240.0,
+    "source_line_id": "INV-202606-002-L0009",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 195 | INV-202606-002-L0009",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00012",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2240.0,
+    "source_line_id": "INV-202606-002-L0010",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 338 | INV-202606-002-L0010",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00013",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202606-002-L0011",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-002-L0011",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00014",
+    "period": "2026-06",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202606-002-L0012",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202606-002-L0012",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00015",
+    "period": "2026-06",
+    "debit_account": "Deductions Receivable \u2014 Disputed",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-DUP-01-L0121-DUP",
+    "memo": "SHORTAGE_CLAIM | SHORTAGE CLAIM TRLR 4471 REBILL | INV-DUP-01-L0121-DUP",
+    "status": "disputed"
+  },
+  {
+    "entry_id": "JE-00016",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 233.0,
+    "source_line_id": "INV-UNK-31-L0127",
+    "memo": "UNKNOWN | MISC DEDUCT ??? | INV-UNK-31-L0127",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00017",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-003-L0013",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-003-L0013",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00018",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-003-L0014",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-003-L0014",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00019",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-003-L0015",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-003-L0015",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00020",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-003-L0016",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-003-L0016",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00021",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-003-L0017",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #38893 | INV-202606-003-L0017",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00022",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-003-L0018",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #87236 | INV-202606-003-L0018",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00023",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1275.0,
+    "source_line_id": "INV-SH-902-L0122",
+    "memo": "SHORTAGE_CLAIM | SHORTAGE CTNS 212 VS 240 | INV-SH-902-L0122",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00024",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 517.0,
+    "source_line_id": "INV-UNK-44-L0128",
+    "memo": "UNKNOWN | ADJ - SEE BACKUP | INV-UNK-44-L0128",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00025",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202606-004-L0019",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-004-L0019",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00026",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-004-L0020",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #54597 | INV-202606-004-L0020",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00027",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-004-L0021",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #30379 | INV-202606-004-L0021",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00028",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202606-004-L0022",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 881 | INV-202606-004-L0022",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00029",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202606-004-L0023",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #23396 | INV-202606-004-L0023",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00030",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202606-004-L0024",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 489 | INV-202606-004-L0024",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00031",
+    "period": "2026-06",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202606-004-L0025",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202606-004-L0025",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00032",
+    "period": "2026-06",
+    "debit_account": "Deductions Receivable \u2014 Disputed",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 350.0,
+    "source_line_id": "INV-CB-118-L0123",
+    "memo": "COMPLIANCE_CHARGEBACK | CHG-BK LATE ASN MAY SHIP (OUT OF WINDOW) | INV-CB-118-L0123",
+    "status": "disputed"
+  },
+  {
+    "entry_id": "JE-00033",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 940.0,
+    "source_line_id": "INV-SP-55-L0129",
+    "memo": "SPOILAGE_DAMAGE | SPOILAGE EXPIRED 06/25 | INV-SP-55-L0129",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00034",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 400.0,
+    "source_line_id": "INV-202606-005-L0026",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-005-L0026",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00035",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 600.0,
+    "source_line_id": "INV-202606-005-L0027",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #15695 | INV-202606-005-L0027",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00036",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 400.0,
+    "source_line_id": "INV-202606-005-L0028",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-005-L0028",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00037",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 600.0,
+    "source_line_id": "INV-202606-005-L0029",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #80284 | INV-202606-005-L0029",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00038",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202606-005-L0030",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 487 | INV-202606-005-L0030",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00039",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202606-005-L0031",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 665 | INV-202606-005-L0031",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00040",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 600.0,
+    "source_line_id": "INV-202606-005-L0032",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #92397 | INV-202606-005-L0032",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00041",
+    "period": "2026-06",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202606-005-L0033",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202606-005-L0033",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00042",
+    "period": "2026-06",
+    "debit_account": "Deductions Receivable \u2014 Disputed",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 85.0,
+    "source_line_id": "INV-CB-118-L0124",
+    "memo": "ADMIN_FEE | ADMIN FEE CHG-BK 118 | INV-CB-118-L0124",
+    "status": "disputed"
+  },
+  {
+    "entry_id": "JE-00043",
+    "period": "2026-06",
+    "debit_account": "Deductions Receivable \u2014 Disputed",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 150.0,
+    "source_line_id": "INV-CB-77-L0130",
+    "memo": "COMPLIANCE_CHARGEBACK | MISLABEL FEE PALLET 9 | INV-CB-77-L0130",
+    "status": "disputed"
+  },
+  {
+    "entry_id": "JE-00044",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 400.0,
+    "source_line_id": "INV-202606-006-L0034",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-006-L0034",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00045",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202606-006-L0035",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 146 | INV-202606-006-L0035",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00046",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 400.0,
+    "source_line_id": "INV-202606-006-L0036",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202606-006-L0036",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00047",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202606-006-L0037",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 891 | INV-202606-006-L0037",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00048",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 600.0,
+    "source_line_id": "INV-202606-006-L0038",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #20458 | INV-202606-006-L0038",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00049",
+    "period": "2026-06",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202606-006-L0039",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 987 | INV-202606-006-L0039",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00050",
+    "period": "2026-06",
+    "debit_account": "DRAFT \u2014 pending review",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 412.0,
+    "source_line_id": "INV-CRY-07-L0125",
+    "memo": "SCAN_ALLOWANCE | SB-ALLOW Q3 ADJ | INV-CRY-07-L0125",
+    "status": "pending_review"
+  },
+  {
+    "entry_id": "JE-00051",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-007-L0040",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #93320 | INV-202607-007-L0040",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00052",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-007-L0041",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #31319 | INV-202607-007-L0041",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00053",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-007-L0042",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #56566 | INV-202607-007-L0042",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00054",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2000.0,
+    "source_line_id": "INV-202607-007-L0043",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 786 | INV-202607-007-L0043",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00055",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-007-L0044",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #99593 | INV-202607-007-L0044",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00056",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 500.0,
+    "source_line_id": "INV-202607-007-L0045",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-007-L0045",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00057",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2000.0,
+    "source_line_id": "INV-202607-007-L0046",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 723 | INV-202607-007-L0046",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00058",
+    "period": "2026-07",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202607-007-L0047",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202607-007-L0047",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00059",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1280.0,
+    "source_line_id": "INV-202607-008-L0048",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 573 | INV-202607-008-L0048",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00060",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-202607-008-L0049",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #45382 | INV-202607-008-L0049",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00061",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202607-008-L0050",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-008-L0050",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00062",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202607-008-L0051",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-008-L0051",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00063",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202607-008-L0052",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-008-L0052",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00064",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1280.0,
+    "source_line_id": "INV-202607-008-L0053",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 801 | INV-202607-008-L0053",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00065",
+    "period": "2026-07",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202607-008-L0054",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202607-008-L0054",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00066",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202607-009-L0055",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 924 | INV-202607-009-L0055",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00067",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202607-009-L0056",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #62581 | INV-202607-009-L0056",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00068",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202607-009-L0057",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #18675 | INV-202607-009-L0057",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00069",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202607-009-L0058",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 680 | INV-202607-009-L0058",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00070",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202607-009-L0059",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-009-L0059",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00071",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202607-009-L0060",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #37869 | INV-202607-009-L0060",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00072",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 500.0,
+    "source_line_id": "INV-202607-010-L0061",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-010-L0061",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00073",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-010-L0062",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #28726 | INV-202607-010-L0062",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00074",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-010-L0063",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #28301 | INV-202607-010-L0063",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00075",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2000.0,
+    "source_line_id": "INV-202607-010-L0064",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 862 | INV-202607-010-L0064",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00076",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 500.0,
+    "source_line_id": "INV-202607-010-L0065",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-010-L0065",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00077",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 500.0,
+    "source_line_id": "INV-202607-010-L0066",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-010-L0066",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00078",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-010-L0067",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #86622 | INV-202607-010-L0067",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00079",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-010-L0068",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #86484 | INV-202607-010-L0068",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00080",
+    "period": "2026-07",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202607-010-L0069",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202607-010-L0069",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00081",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202607-011-L0070",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 621 | INV-202607-011-L0070",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00082",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 600.0,
+    "source_line_id": "INV-202607-011-L0071",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #21915 | INV-202607-011-L0071",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00083",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202607-011-L0072",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 981 | INV-202607-011-L0072",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00084",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202607-011-L0073",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 256 | INV-202607-011-L0073",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00085",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 400.0,
+    "source_line_id": "INV-202607-011-L0074",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-011-L0074",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00086",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1600.0,
+    "source_line_id": "INV-202607-011-L0075",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 911 | INV-202607-011-L0075",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00087",
+    "period": "2026-07",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202607-011-L0076",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202607-011-L0076",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00088",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-012-L0077",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #60019 | INV-202607-012-L0077",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00089",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 500.0,
+    "source_line_id": "INV-202607-012-L0078",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202607-012-L0078",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00090",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-012-L0079",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #79352 | INV-202607-012-L0079",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00091",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 750.0,
+    "source_line_id": "INV-202607-012-L0080",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #82512 | INV-202607-012-L0080",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00092",
+    "period": "2026-07",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2000.0,
+    "source_line_id": "INV-202607-012-L0081",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 796 | INV-202607-012-L0081",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00093",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202608-013-L0082",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-013-L0082",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00094",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202608-013-L0083",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #24621 | INV-202608-013-L0083",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00095",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202608-013-L0084",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #66985 | INV-202608-013-L0084",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00096",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202608-013-L0085",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 564 | INV-202608-013-L0085",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00097",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202608-013-L0086",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 839 | INV-202608-013-L0086",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00098",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 240.0,
+    "source_line_id": "INV-202608-013-L0087",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-013-L0087",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00099",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 360.0,
+    "source_line_id": "INV-202608-013-L0088",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #75612 | INV-202608-013-L0088",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00100",
+    "period": "2026-08",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202608-013-L0089",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202608-013-L0089",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00101",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202608-014-L0090",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-014-L0090",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00102",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-202608-014-L0091",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #93748 | INV-202608-014-L0091",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00103",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202608-014-L0092",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-014-L0092",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00104",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202608-014-L0093",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-014-L0093",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00105",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1280.0,
+    "source_line_id": "INV-202608-014-L0094",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 256 | INV-202608-014-L0094",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00106",
+    "period": "2026-08",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202608-014-L0095",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202608-014-L0095",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00107",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 320.0,
+    "source_line_id": "INV-202608-015-L0096",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-015-L0096",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00108",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-202608-015-L0097",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #74042 | INV-202608-015-L0097",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00109",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1280.0,
+    "source_line_id": "INV-202608-015-L0098",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 214 | INV-202608-015-L0098",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00110",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 480.0,
+    "source_line_id": "INV-202608-015-L0099",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #50306 | INV-202608-015-L0099",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00111",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1280.0,
+    "source_line_id": "INV-202608-015-L0100",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 159 | INV-202608-015-L0100",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00112",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2240.0,
+    "source_line_id": "INV-202608-016-L0101",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 849 | INV-202608-016-L0101",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00113",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 840.0,
+    "source_line_id": "INV-202608-016-L0102",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #19071 | INV-202608-016-L0102",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00114",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-016-L0103",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-016-L0103",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00115",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2240.0,
+    "source_line_id": "INV-202608-016-L0104",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 231 | INV-202608-016-L0104",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00116",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-016-L0105",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-016-L0105",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00117",
+    "period": "2026-08",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1840.0,
+    "source_line_id": "INV-202608-016-L0106",
+    "memo": "TRADE_PROMO | PROMO ACCRUAL TRUE-UP JUL | INV-202608-016-L0106",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00118",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 840.0,
+    "source_line_id": "INV-202608-017-L0107",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #79163 | INV-202608-017-L0107",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00119",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-017-L0108",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-017-L0108",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00120",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 840.0,
+    "source_line_id": "INV-202608-017-L0109",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #37760 | INV-202608-017-L0109",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00121",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-017-L0110",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-017-L0110",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00122",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-017-L0111",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-017-L0111",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00123",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 560.0,
+    "source_line_id": "INV-202608-017-L0112",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-017-L0112",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00124",
+    "period": "2026-08",
+    "debit_account": "Accrued Trade Spend Liability",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 1500.0,
+    "source_line_id": "INV-202608-017-L0113",
+    "memo": "SLOTTING | SLOTTING Q3 INSTALLMENT | INV-202608-017-L0113",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00125",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202608-018-L0114",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #98039 | INV-202608-018-L0114",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00126",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 640.0,
+    "source_line_id": "INV-202608-018-L0115",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-018-L0115",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00127",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202608-018-L0116",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #67422 | INV-202608-018-L0116",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00128",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 640.0,
+    "source_line_id": "INV-202608-018-L0117",
+    "memo": "COOP_ADVERTISING | COOP FLYER AD | INV-202608-018-L0117",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00129",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 960.0,
+    "source_line_id": "INV-202608-018-L0118",
+    "memo": "SCAN_ALLOWANCE | SCAN BILLBACK #25860 | INV-202608-018-L0118",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00130",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2560.0,
+    "source_line_id": "INV-202608-018-L0119",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 330 | INV-202608-018-L0119",
+    "status": "auto_posted"
+  },
+  {
+    "entry_id": "JE-00131",
+    "period": "2026-08",
+    "debit_account": "Trade Promotion Expense (contra-revenue)",
+    "credit_account": "AR \u2014 Distributor",
+    "amount": 2560.0,
+    "source_line_id": "INV-202608-018-L0120",
+    "memo": "TRADE_PROMO | Q3 PROMO ALLOW 446 | INV-202608-018-L0120",
+    "status": "auto_posted"
+  }
+]
