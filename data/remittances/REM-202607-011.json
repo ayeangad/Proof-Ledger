@@ -1,0 +1,73 @@
+{
+  "remittance_id": "REM-202607-011",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-07-15",
+  "invoice_total": 20000.0,
+  "cash_received": 11100.0,
+  "lines": [
+    {
+      "line_id": "INV-202607-011-L0070",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "Q3 PROMO ALLOW 621",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202607-011-L0071",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "SCAN BILLBACK #21915",
+      "reason_code_raw": "SCAN",
+      "amount": -600.0
+    },
+    {
+      "line_id": "INV-202607-011-L0072",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "Q3 PROMO ALLOW 981",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202607-011-L0073",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "Q3 PROMO ALLOW 256",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202607-011-L0074",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -400.0
+    },
+    {
+      "line_id": "INV-202607-011-L0075",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "Q3 PROMO ALLOW 911",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202607-011-L0076",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-011",
+      "remittance_date": "2026-07-15",
+      "raw_description": "SLOTTING Q3 INSTALLMENT",
+      "reason_code_raw": "SLOT",
+      "amount": -1500.0
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "INV-202606-001-L0001": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-001-L0002": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-001-L0003": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-001-L0004": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-001-L0005": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-001-L0006": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202606-002-L0007": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-002-L0008": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-002-L0009": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-002-L0010": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-002-L0011": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-002-L0012": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202606-003-L0013": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-003-L0014": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-003-L0015": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-003-L0016": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-003-L0017": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-003-L0018": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0019": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0020": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0021": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0022": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0023": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0024": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-004-L0025": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202606-005-L0026": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0027": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0028": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0029": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0030": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0031": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0032": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-005-L0033": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202606-006-L0034": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-006-L0035": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-006-L0036": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-006-L0037": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-006-L0038": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202606-006-L0039": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0040": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0041": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0042": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0043": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0044": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0045": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0046": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-007-L0047": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202607-008-L0048": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0049": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0050": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0051": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0052": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0053": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-008-L0054": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202607-009-L0055": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-009-L0056": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-009-L0057": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-009-L0058": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-009-L0059": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-009-L0060": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0061": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0062": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0063": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0064": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0065": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0066": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0067": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0068": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-010-L0069": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202607-011-L0070": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0071": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0072": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0073": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0074": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0075": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-011-L0076": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202607-012-L0077": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-012-L0078": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-012-L0079": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-012-L0080": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202607-012-L0081": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0082": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0083": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0084": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0085": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0086": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0087": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0088": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-013-L0089": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202608-014-L0090": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-014-L0091": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-014-L0092": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-014-L0093": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-014-L0094": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-014-L0095": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202608-015-L0096": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-015-L0097": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-015-L0098": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-015-L0099": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-015-L0100": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0101": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0102": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0103": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0104": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0105": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-016-L0106": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "already_accrued"
+  },
+  "INV-202608-017-L0107": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0108": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0109": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0110": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0111": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0112": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-017-L0113": {
+    "reason_code": "SLOTTING",
+    "bucket": "already_accrued"
+  },
+  "INV-202608-018-L0114": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0115": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0116": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0117": {
+    "reason_code": "COOP_ADVERTISING",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0118": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0119": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-202608-018-L0120": {
+    "reason_code": "TRADE_PROMO",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-DUP-01-L0121": {
+    "reason_code": "SHORTAGE_CLAIM",
+    "bucket": "disputable"
+  },
+  "INV-DUP-01-L0121-DUP": {
+    "reason_code": "SHORTAGE_CLAIM",
+    "bucket": "disputable"
+  },
+  "INV-SH-902-L0122": {
+    "reason_code": "SHORTAGE_CLAIM",
+    "bucket": "disputable"
+  },
+  "INV-CB-118-L0123": {
+    "reason_code": "COMPLIANCE_CHARGEBACK",
+    "bucket": "disputable"
+  },
+  "INV-CB-118-L0124": {
+    "reason_code": "ADMIN_FEE",
+    "bucket": "disputable"
+  },
+  "INV-CRY-07-L0125": {
+    "reason_code": "SCAN_ALLOWANCE",
+    "bucket": "valid_trade_spend"
+  },
+  "INV-CRY-12-L0126": {
+    "reason_code": "COMPLIANCE_CHARGEBACK",
+    "bucket": "disputable"
+  },
+  "INV-UNK-31-L0127": {
+    "reason_code": "UNKNOWN",
+    "bucket": "needs_review"
+  },
+  "INV-UNK-44-L0128": {
+    "reason_code": "UNKNOWN",
+    "bucket": "needs_review"
+  },
+  "INV-SP-55-L0129": {
+    "reason_code": "SPOILAGE_DAMAGE",
+    "bucket": "disputable"
+  },
+  "INV-CB-77-L0130": {
+    "reason_code": "COMPLIANCE_CHARGEBACK",
+    "bucket": "disputable"
+  }
+}

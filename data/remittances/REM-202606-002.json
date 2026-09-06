@@ -1,0 +1,82 @@
+{
+  "remittance_id": "REM-202606-002",
+  "distributor_id": "DIST-KEHE-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-06-26",
+  "invoice_total": 28000.0,
+  "cash_received": 19347.0,
+  "lines": [
+    {
+      "line_id": "INV-202606-002-L0007",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202606-002-L0008",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "SCAN BILLBACK #14165",
+      "reason_code_raw": "SCAN",
+      "amount": -840.0
+    },
+    {
+      "line_id": "INV-202606-002-L0009",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "Q3 PROMO ALLOW 195",
+      "reason_code_raw": "PROMO",
+      "amount": -2240.0
+    },
+    {
+      "line_id": "INV-202606-002-L0010",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "Q3 PROMO ALLOW 338",
+      "reason_code_raw": "PROMO",
+      "amount": -2240.0
+    },
+    {
+      "line_id": "INV-202606-002-L0011",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202606-002-L0012",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-002",
+      "remittance_date": "2026-06-26",
+      "raw_description": "SLOTTING Q3 INSTALLMENT",
+      "reason_code_raw": "SLOT",
+      "amount": -1500.0
+    },
+    {
+      "line_id": "INV-DUP-01-L0121-DUP",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-DUP-01",
+      "remittance_date": "2026-07-22",
+      "raw_description": "SHORTAGE CLAIM TRLR 4471 REBILL",
+      "reason_code_raw": "SHORT",
+      "amount": -480.0
+    },
+    {
+      "line_id": "INV-UNK-31-L0127",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-UNK-31",
+      "remittance_date": "2026-08-18",
+      "raw_description": "MISC DEDUCT ???",
+      "reason_code_raw": null,
+      "amount": -233.0
+    }
+  ]
+}

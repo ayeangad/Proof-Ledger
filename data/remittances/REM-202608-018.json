@@ -1,0 +1,73 @@
+{
+  "remittance_id": "REM-202608-018",
+  "distributor_id": "DIST-KEHE-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-08-09",
+  "invoice_total": 32000.0,
+  "cash_received": 22720.0,
+  "lines": [
+    {
+      "line_id": "INV-202608-018-L0114",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "SCAN BILLBACK #98039",
+      "reason_code_raw": "SCAN",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202608-018-L0115",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -640.0
+    },
+    {
+      "line_id": "INV-202608-018-L0116",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "SCAN BILLBACK #67422",
+      "reason_code_raw": "SCAN",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202608-018-L0117",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -640.0
+    },
+    {
+      "line_id": "INV-202608-018-L0118",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "SCAN BILLBACK #25860",
+      "reason_code_raw": "SCAN",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202608-018-L0119",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "Q3 PROMO ALLOW 330",
+      "reason_code_raw": "PROMO",
+      "amount": -2560.0
+    },
+    {
+      "line_id": "INV-202608-018-L0120",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-018",
+      "remittance_date": "2026-08-09",
+      "raw_description": "Q3 PROMO ALLOW 446",
+      "reason_code_raw": "PROMO",
+      "amount": -2560.0
+    }
+  ]
+}

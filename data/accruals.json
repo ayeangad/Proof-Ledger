@@ -1,0 +1,30 @@
+[
+  {
+    "accrual_id": "ACC-001",
+    "period": "2026-07",
+    "reason_code": "TRADE_PROMO",
+    "accrued_amount": 1840.0,
+    "still_open": true
+  },
+  {
+    "accrual_id": "ACC-002",
+    "period": "2026-07",
+    "reason_code": "SLOTTING",
+    "accrued_amount": 1500.0,
+    "still_open": true
+  },
+  {
+    "accrual_id": "ACC-003",
+    "period": "2026-06",
+    "reason_code": "COOP_ADVERTISING",
+    "accrued_amount": 640.0,
+    "still_open": false
+  },
+  {
+    "accrual_id": "ACC-004",
+    "period": "2026-07",
+    "reason_code": "SCAN_ALLOWANCE",
+    "accrued_amount": 690.0,
+    "still_open": true
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "brand_id": "BRAND-NORTHFORK",
+  "distributor_id": "MULTI",
+  "effective_date": "2026-06-01",
+  "expiration_date": "2026-12-31",
+  "terms": [
+    {
+      "reason_code": "TRADE_PROMO",
+      "description": "Q3 off-invoice promo 8% of invoice",
+      "expected_amount": null,
+      "expected_pct_of_invoice": 0.08,
+      "max_amount_per_period": 5000.0
+    },
+    {
+      "reason_code": "SCAN_ALLOWANCE",
+      "description": "Scan billback ~3% of invoice",
+      "expected_amount": null,
+      "expected_pct_of_invoice": 0.03,
+      "max_amount_per_period": 2500.0
+    },
+    {
+      "reason_code": "SLOTTING",
+      "description": "Shelf placement Q3 installment",
+      "expected_amount": 1500.0,
+      "expected_pct_of_invoice": null,
+      "max_amount_per_period": 1500.0
+    },
+    {
+      "reason_code": "COOP_ADVERTISING",
+      "description": "Co-op flyer 2% capped at $2000",
+      "expected_amount": null,
+      "expected_pct_of_invoice": 0.02,
+      "max_amount_per_period": 2000.0
+    },
+    {
+      "reason_code": "COMPLIANCE_CHARGEBACK",
+      "description": "Late-ASN/label violations, max $150 per event inside window",
+      "expected_amount": 150.0,
+      "expected_pct_of_invoice": null,
+      "max_amount_per_period": 600.0
+    },
+    {
+      "reason_code": "SHORTAGE_CLAIM",
+      "description": "No standing term \u2014 case-by-case, disputable by default",
+      "expected_amount": null,
+      "expected_pct_of_invoice": null,
+      "max_amount_per_period": null
+    },
+    {
+      "reason_code": "SPOILAGE_DAMAGE",
+      "description": "No standing term \u2014 case-by-case, disputable by default",
+      "expected_amount": null,
+      "expected_pct_of_invoice": null,
+      "max_amount_per_period": null
+    }
+  ]
+}

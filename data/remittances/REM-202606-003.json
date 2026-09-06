@@ -1,0 +1,82 @@
+{
+  "remittance_id": "REM-202606-003",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-06-22",
+  "invoice_total": 12000.0,
+  "cash_received": 8528.0,
+  "lines": [
+    {
+      "line_id": "INV-202606-003-L0013",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-003-L0014",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-003-L0015",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-003-L0016",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-003-L0017",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "SCAN BILLBACK #38893",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    },
+    {
+      "line_id": "INV-202606-003-L0018",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-003",
+      "remittance_date": "2026-06-22",
+      "raw_description": "SCAN BILLBACK #87236",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    },
+    {
+      "line_id": "INV-SH-902-L0122",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-SH-902",
+      "remittance_date": "2026-07-15",
+      "raw_description": "SHORTAGE CTNS 212 VS 240",
+      "reason_code_raw": "SHORT",
+      "amount": -1275.0
+    },
+    {
+      "line_id": "INV-UNK-44-L0128",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-UNK-44",
+      "remittance_date": "2026-08-19",
+      "raw_description": "ADJ - SEE BACKUP",
+      "reason_code_raw": null,
+      "amount": -517.0
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "remittance_id": "REM-202606-005",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-06-06",
+  "invoice_total": 20000.0,
+  "cash_received": 12465.0,
+  "lines": [
+    {
+      "line_id": "INV-202606-005-L0026",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -400.0
+    },
+    {
+      "line_id": "INV-202606-005-L0027",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "SCAN BILLBACK #15695",
+      "reason_code_raw": "SCAN",
+      "amount": -600.0
+    },
+    {
+      "line_id": "INV-202606-005-L0028",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -400.0
+    },
+    {
+      "line_id": "INV-202606-005-L0029",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "SCAN BILLBACK #80284",
+      "reason_code_raw": "SCAN",
+      "amount": -600.0
+    },
+    {
+      "line_id": "INV-202606-005-L0030",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "Q3 PROMO ALLOW 487",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202606-005-L0031",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "Q3 PROMO ALLOW 665",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202606-005-L0032",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "SCAN BILLBACK #92397",
+      "reason_code_raw": "SCAN",
+      "amount": -600.0
+    },
+    {
+      "line_id": "INV-202606-005-L0033",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-005",
+      "remittance_date": "2026-06-06",
+      "raw_description": "SLOTTING Q3 INSTALLMENT",
+      "reason_code_raw": "SLOT",
+      "amount": -1500.0
+    },
+    {
+      "line_id": "INV-CB-118-L0124",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-CB-118",
+      "remittance_date": "2026-08-04",
+      "raw_description": "ADMIN FEE CHG-BK 118",
+      "reason_code_raw": "ADMFEE",
+      "amount": -85.0
+    },
+    {
+      "line_id": "INV-CB-77-L0130",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-CB-77",
+      "remittance_date": "2026-06-25",
+      "raw_description": "MISLABEL FEE PALLET 9",
+      "reason_code_raw": "CHGBK",
+      "amount": -150.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "remittance_id": "REM-202607-009",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-07-13",
+  "invoice_total": 12000.0,
+  "cash_received": 8760.0,
+  "lines": [
+    {
+      "line_id": "INV-202607-009-L0055",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "Q3 PROMO ALLOW 924",
+      "reason_code_raw": "PROMO",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202607-009-L0056",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "SCAN BILLBACK #62581",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    },
+    {
+      "line_id": "INV-202607-009-L0057",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "SCAN BILLBACK #18675",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    },
+    {
+      "line_id": "INV-202607-009-L0058",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "Q3 PROMO ALLOW 680",
+      "reason_code_raw": "PROMO",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202607-009-L0059",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202607-009-L0060",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-009",
+      "remittance_date": "2026-07-13",
+      "raw_description": "SCAN BILLBACK #37869",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    }
+  ]
+}

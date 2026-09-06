@@ -1,0 +1,73 @@
+{
+  "remittance_id": "REM-202608-017",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-08-18",
+  "invoice_total": 28000.0,
+  "cash_received": 22580.0,
+  "lines": [
+    {
+      "line_id": "INV-202608-017-L0107",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "SCAN BILLBACK #79163",
+      "reason_code_raw": "SCAN",
+      "amount": -840.0
+    },
+    {
+      "line_id": "INV-202608-017-L0108",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202608-017-L0109",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "SCAN BILLBACK #37760",
+      "reason_code_raw": "SCAN",
+      "amount": -840.0
+    },
+    {
+      "line_id": "INV-202608-017-L0110",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202608-017-L0111",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202608-017-L0112",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -560.0
+    },
+    {
+      "line_id": "INV-202608-017-L0113",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202608-017",
+      "remittance_date": "2026-08-18",
+      "raw_description": "SLOTTING Q3 INSTALLMENT",
+      "reason_code_raw": "SLOT",
+      "amount": -1500.0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "remittance_id": "REM-202606-006",
+  "distributor_id": "DIST-KEHE-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-06-22",
+  "invoice_total": 20000.0,
+  "cash_received": 13388.0,
+  "lines": [
+    {
+      "line_id": "INV-202606-006-L0034",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -400.0
+    },
+    {
+      "line_id": "INV-202606-006-L0035",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "Q3 PROMO ALLOW 146",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202606-006-L0036",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -400.0
+    },
+    {
+      "line_id": "INV-202606-006-L0037",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "Q3 PROMO ALLOW 891",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-202606-006-L0038",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "SCAN BILLBACK #20458",
+      "reason_code_raw": "SCAN",
+      "amount": -600.0
+    },
+    {
+      "line_id": "INV-202606-006-L0039",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202606-006",
+      "remittance_date": "2026-06-22",
+      "raw_description": "Q3 PROMO ALLOW 987",
+      "reason_code_raw": "PROMO",
+      "amount": -1600.0
+    },
+    {
+      "line_id": "INV-CRY-07-L0125",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-CRY-07",
+      "remittance_date": "2026-08-11",
+      "raw_description": "SB-ALLOW Q3 ADJ",
+      "reason_code_raw": "SB-ALLOW",
+      "amount": -412.0
+    }
+  ]
+}

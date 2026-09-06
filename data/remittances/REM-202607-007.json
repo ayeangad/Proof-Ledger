@@ -1,0 +1,82 @@
+{
+  "remittance_id": "REM-202607-007",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-07-06",
+  "invoice_total": 25000.0,
+  "cash_received": 15660.0,
+  "lines": [
+    {
+      "line_id": "INV-202607-007-L0040",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "SCAN BILLBACK #93320",
+      "reason_code_raw": "SCAN",
+      "amount": -750.0
+    },
+    {
+      "line_id": "INV-202607-007-L0041",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "SCAN BILLBACK #31319",
+      "reason_code_raw": "SCAN",
+      "amount": -750.0
+    },
+    {
+      "line_id": "INV-202607-007-L0042",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "SCAN BILLBACK #56566",
+      "reason_code_raw": "SCAN",
+      "amount": -750.0
+    },
+    {
+      "line_id": "INV-202607-007-L0043",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "Q3 PROMO ALLOW 786",
+      "reason_code_raw": "PROMO",
+      "amount": -2000.0
+    },
+    {
+      "line_id": "INV-202607-007-L0044",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "SCAN BILLBACK #99593",
+      "reason_code_raw": "SCAN",
+      "amount": -750.0
+    },
+    {
+      "line_id": "INV-202607-007-L0045",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -500.0
+    },
+    {
+      "line_id": "INV-202607-007-L0046",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "Q3 PROMO ALLOW 723",
+      "reason_code_raw": "PROMO",
+      "amount": -2000.0
+    },
+    {
+      "line_id": "INV-202607-007-L0047",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202607-007",
+      "remittance_date": "2026-07-06",
+      "raw_description": "PROMO ACCRUAL TRUE-UP JUL",
+      "reason_code_raw": "PROMO",
+      "amount": -1840.0
+    }
+  ]
+}

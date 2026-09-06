@@ -1,0 +1,82 @@
+{
+  "remittance_id": "REM-202606-001",
+  "distributor_id": "DIST-UNFI-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-06-23",
+  "invoice_total": 12000.0,
+  "cash_received": 6231.0,
+  "lines": [
+    {
+      "line_id": "INV-202606-001-L0001",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-001-L0002",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "SCAN BILLBACK #42098",
+      "reason_code_raw": "SCAN",
+      "amount": -360.0
+    },
+    {
+      "line_id": "INV-202606-001-L0003",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "Q3 PROMO ALLOW 242",
+      "reason_code_raw": "PROMO",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202606-001-L0004",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -240.0
+    },
+    {
+      "line_id": "INV-202606-001-L0005",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "Q3 PROMO ALLOW 792",
+      "reason_code_raw": "PROMO",
+      "amount": -960.0
+    },
+    {
+      "line_id": "INV-202606-001-L0006",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-202606-001",
+      "remittance_date": "2026-06-23",
+      "raw_description": "PROMO ACCRUAL TRUE-UP JUL",
+      "reason_code_raw": "PROMO",
+      "amount": -1840.0
+    },
+    {
+      "line_id": "INV-DUP-01-L0121",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-DUP-01",
+      "remittance_date": "2026-07-09",
+      "raw_description": "SHORTAGE CLAIM TRLR 4471",
+      "reason_code_raw": "SHORT",
+      "amount": -480.0
+    },
+    {
+      "line_id": "INV-CRY-12-L0126",
+      "distributor_id": "DIST-UNFI-SYN",
+      "invoice_id": "INV-CRY-12",
+      "remittance_date": "2026-08-12",
+      "raw_description": "CHG-BK REF 88213",
+      "reason_code_raw": "CHGBK",
+      "amount": -689.0
+    }
+  ]
+}

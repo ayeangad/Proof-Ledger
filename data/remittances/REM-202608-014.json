@@ -1,0 +1,64 @@
+{
+  "remittance_id": "REM-202608-014",
+  "distributor_id": "DIST-KEHE-SYN",
+  "brand_id": "BRAND-NORTHFORK",
+  "remittance_date": "2026-08-27",
+  "invoice_total": 16000.0,
+  "cash_received": 11780.0,
+  "lines": [
+    {
+      "line_id": "INV-202608-014-L0090",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -320.0
+    },
+    {
+      "line_id": "INV-202608-014-L0091",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "SCAN BILLBACK #93748",
+      "reason_code_raw": "SCAN",
+      "amount": -480.0
+    },
+    {
+      "line_id": "INV-202608-014-L0092",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -320.0
+    },
+    {
+      "line_id": "INV-202608-014-L0093",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "COOP FLYER AD",
+      "reason_code_raw": "COOP",
+      "amount": -320.0
+    },
+    {
+      "line_id": "INV-202608-014-L0094",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "Q3 PROMO ALLOW 256",
+      "reason_code_raw": "PROMO",
+      "amount": -1280.0
+    },
+    {
+      "line_id": "INV-202608-014-L0095",
+      "distributor_id": "DIST-KEHE-SYN",
+      "invoice_id": "INV-202608-014",
+      "remittance_date": "2026-08-27",
+      "raw_description": "SLOTTING Q3 INSTALLMENT",
+      "reason_code_raw": "SLOT",
+      "amount": -1500.0
+    }
+  ]
+}
